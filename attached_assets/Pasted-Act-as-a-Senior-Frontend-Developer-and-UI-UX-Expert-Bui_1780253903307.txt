@@ -1,0 +1,81 @@
+Act as a Senior Frontend Developer and UI/UX Expert. Build a fully functional, pixel-perfect Single Page Application (SPA) using React + Vite + TypeScript + Tailwind CSS + shadcn/ui for "NutriWork" — a premium healthy workplace food subscription service in Tbilisi.
+CRITICAL DESIGN REQUIREMENT:
+The UI must feel vibrant, modern, and premium — not plain or generic. Match the visual energy of high-end foodtech apps like Nooma. Use bold typography, rich colorful accents, beautiful shadows, rounded cards, and vibrant food photography.
+COLOR PALETTE (Apply Strictly Everywhere):
+
+Primary / Main Green: #22C55E (buttons, accents, badges, progress bars, links)
+Secondary Accent: Bright Coral #FF6B6B
+Warm Highlight: Sunny Yellow #FBBF24
+Background: Warm Off-White #FFFDF9
+Card Background: Pure white with soft shadows + light green borders
+Header: White with subtle green accent
+Dark Text: #1F2937
+
+Logo: Modern line-art sunny-side-up egg with vibrant avocado-green yolk + bold "NutriWork" text.
+
+Pages & Functionality (All 100% Working)
+1. Landing Page (/)
+
+Sticky header with blur effect, logo, navigation (Menu, Pricing, About Us), and prominent green "Sign In" button
+Hero Section: High-impact split layout — left side massive bold headline + "Order Your First Week" CTA, right side large vibrant photorealistic healthy food bowl with gradient background
+Social proof banner: "The NutriWork team is still small. We only serve 50 office employees daily in Tbilisi to ensure unmatched quality."
+How It Works — 3 colorful cards
+Pricing section with 3 plans (highlight the most popular)
+Menu Preview: 5-card grid (Mon–Fri) — guests can view only
+
+2. Auth Screen
+
+Clean centered modal/card
+"Continue with Google" button
+Phone number input with +995 prefix and proper Georgian number validation
+After login → redirect to Dashboard
+
+3. Checkout Page (/checkout)
+
+Multi-step form:
+Select subscription plan
+Office address + floor/room details
+Preferred delivery time selection (10:00 AM – 6:00 PM)
+Review & Confirm (mock payment options)
+
+
+4. User Dashboard (/dashboard) — "My Program"
+
+Top greeting: "Good week ahead, [Name]" with green accents
+Active subscription banner with green badge: "Active • One delivery per working day • 10:00 AM – 6:00 PM"
+Delivery Time Management:
+Grid of 5 day cards (MON – FRI)
+Each card shows large bold selected time (e.g. 12:30)
+"Change Time" button (opens time picker with 30-minute slots from 10:00 to 18:00)
+Toggle: "Keep same time all week"
+
+Meal Selection Grid:
+Toggle between SlimMenu and BalanceMenu
+5 daily cards with:
+– Vibrant square food photo (~320px)
+– Dish name, calories, P/F/C macros
+– Green "Change Meal" button → modal with alternatives (Mediterranean, Asian, Turkish, Italian, Georgian healthy options)
+
+Courier Tracking:
+Progress bar: Preparing → Picked Up → On the Way → Delivered
+Courier card: Giorgi Khvedelidze, White Scooter (BB-555-B), working "Call Courier" button (tel:+995...)
+
+
+
+Technical & Design Rules:
+
+Fully responsive (mobile-first, looks excellent on laptop for presentation)
+Use React Router v6 + Zustand for state management
+Smooth animations (framer-motion recommended)
+Every button must have clear purpose and work perfectly (no dead links)
+High-quality, bright, appetizing food images
+Rich visual depth: shadows, rounded-2xl/3xl corners, color accents, good spacing
+
+Functionality Notes:
+
+Delivery time is changeable per day or kept the same for the whole week
+Simulate Google login and phone validation realistically
+All states (guest vs logged-in) must work smoothly
+
+Final Output:
+Generate the complete project with proper folder structure, ready for GitHub + Vercel deployment. Include a detailed README with setup and deployment instructions.
