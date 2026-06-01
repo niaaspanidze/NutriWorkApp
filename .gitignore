@@ -1,0 +1,16 @@
+# Replit specific junk
+.local/
+.agents/
+artifacts/
+.replit
+.replitignore
+
+# Node dependencies and build caches
+node_modules/
+dist/
+.npmrc
+pnpm-lock.yaml
+
+# System files
+.DS_Store
+Thumbs.db
